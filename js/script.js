@@ -27,7 +27,6 @@ gobelins[nom]=gobelin;
 }
 console.log(gobelins);
 var arr = Object.entries(gobelins);
-console.log(arr[9][1].dents);
 
 // affichage
 // ligne 1
@@ -89,3 +88,8 @@ document.querySelector(".case10-1").innerHTML = arr[9][0];
 document.querySelector(".case10-2").innerHTML = arr[9][1].sexe;
 document.querySelector(".case10-3").innerHTML = arr[9][1].age;
 document.querySelector(".case10-4").innerHTML = arr[9][1].dents;
+
+function actualiser(){
+    location.reload();
+
+}

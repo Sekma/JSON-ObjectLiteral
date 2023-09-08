@@ -9,10 +9,72 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+  }
+
+  /* l'en-tete de la page */
+  header{
+    text-align: center;
+  }
+  h1, h4{
+    margin-top: 30px;
   }
   main{
     display: flex;
+    gap: 100px;
+  }
+
+   /* présentation */
+  section span{
+    font-weight: 600;
+  }
+  section h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  /* le tableau */
+  th, td{
+    border: 2px solid black;
+  }
+  th{
+    background-color: rgb(40, 40, 114);
+    color: white;
+    height: 30px;
+  }
+  td:nth-child(1){
+    padding-left: 5px;
+    width: 100px;
+  }
+  td:nth-child(2){
+    padding-left: 5px;
+    width: 60px;
+  }
+  td:nth-child(3), td:nth-child(4){
+    text-align: center;
+    width: 50px;
+  }
+
+  tr:nth-child(even){
+    background-color: rgb(200, 200, 255);
+  }
+  tr:nth-child(odd){
+    background-color: rgb(235, 235, 255);
+  }
+  button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(230, 230, 253);
+    border-radius: 5px;
+    border: 1px solid rgb(155, 155, 255);
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: rgb(155, 155, 255);
   }
   footer{
     margin-top: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: grey;
   }
